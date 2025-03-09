@@ -5,7 +5,7 @@ public final class TabBarController: UIViewController {
 
     // MARK: - Properties
 
-    private lazy var tabBarView: TabBar = {
+    public lazy var tabBarView: TabBar = {
         let view = TabBar(configuration: configuration)
         view.delegate = self
         return view
